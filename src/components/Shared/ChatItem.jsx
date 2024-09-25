@@ -2,7 +2,7 @@ import React, { memo } from "react";
 import { Link } from "../styles/StyledComponents";
 import { Box, Stack, Typography } from "@mui/material";
 import { motion } from "framer-motion";
-import AvatarCard from "./AvatarCard";
+import AvatarCard from "../shared2/AvatarCard";
 
 const ChatItem = ({
   avatar = [],
