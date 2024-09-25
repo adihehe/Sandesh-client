@@ -2,7 +2,7 @@ import { useFetchData } from "6pp";
 import { Avatar, Skeleton, Stack } from "@mui/material";
 import React, { useEffect, useState } from "react";
 import AdminLayout from "../../components/Layout/AdminLayout";
-import AvatarCard from "../../components/shared/AvatarCard";
+import AvatarCard from "../../components/shared2/AvatarCard";
 import Table from "../../components/Shared/Table";
 import{dashboardData as data} from "../../components/Constants/sampleData"
 
