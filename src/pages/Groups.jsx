@@ -23,7 +23,7 @@ import React, { Suspense, lazy, memo, useEffect, useState } from "react";
 import { useNavigate, useSearchParams } from "react-router-dom";
 import { LayoutLoader } from "../components/Layout/Loaders"
 import { Link } from "../components/styles/StyledComponents";
-import AvatarCard from "../components/shared/AvatarCard";
+import AvatarCard from "../components/shared2/AvatarCard";
 import { headerColor, matBlack } from "../components/Constants/Color";
 import { samepleChats, sampleUsers } from "../components/Constants/sampleData";
 const ConfirmDeleteDialog = lazy(() => import("../components/dialogs/ConfirmDeleteDialog"))
